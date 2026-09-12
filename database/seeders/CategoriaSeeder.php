@@ -14,7 +14,7 @@ class CategoriaSeeder extends Seeder
     public function run(): void
     {
         Categoria::create([
-            'nome' => 'Informática'
+            'nome' => 'trafico de pessoas'
         ]);
 
         Categoria::create([
