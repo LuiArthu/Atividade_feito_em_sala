@@ -16,25 +16,37 @@ class ProdutoSeeder extends Seeder
         Produto::create([
             'nome' => 'Juan',
             'preco' => 0.50,
-            'quantidade' => 12,
+            'quantidade' => 1,
+            'categoria_id' => 1,
         ]);
 
         Produto::create([
             'nome' => 'Lauridam',
             'preco' => 1.50,
-            'quantidade' => 25,
+            'quantidade' => 1,
+            'categoria_id' => 1,
+
         ]);
 
         Produto::create([
             'nome' => 'Pastel',
             'preco' => 21.90,
-            'quantidade' => 11,
+            'quantidade' => 1000,
+            'categoria_id' => 2,
         ]);
 
         Produto::create([
             'nome' => 'anao de jardim',
-            'preco' => 21.90,
-            'quantidade' => 11,
+            'preco' => 1000.90,
+            'quantidade' => 10,
+            'categoria_id' => 1,
+        ]);
+
+        Produto::create([
+            'nome' => 'fuscão preto',
+            'preco' => 9999.90,
+            'quantidade' => 1,
+            'categoria_id' => 1,
         ]);
 
 
