@@ -9,7 +9,13 @@ class ProdutoController extends Controller
 {
     public function index(){
         $produtos = Produto::all();
-        return view('produtos.index', 
+        return view('produtos.index',
         compact('produtos'));
+    }
+    public function show($id)
+    {
+        $produto = Produto::find($id);
+
+        return view('produtos.show', compact('produto'));
     }
 }
